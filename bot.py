@@ -117,7 +117,7 @@ async def purge(ctx, *args):
     For testing purposes
     """
     channel = ctx.message.channel
-    check = lambda msg: msg.content == "" or msg.content[0] in ['!', 'o', '`', 'J', 'L']
+    check = lambda msg: msg.content == "" or msg.content[0] in ['!']
     await ctx.bot.purge_from(channel, limit=1000, check=check)
     await ctx.bot.say("Messages have been purged", delete_after=life_time)
 
