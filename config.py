@@ -15,16 +15,16 @@ Test Bot!
 
 A bot we can use for testing purposes.
 
-!hello ->
+?hello ->
 	says hello
 
-!purge ->
+?purge ->
     Mass Delete Messages that have key prefixes.
     For testing purposes.
     Right now, it deletes all messages with '!',
     '?', and '&' in it
 
-!voice ->
+?voice ->
     For joining/leaving the author's voice channel
 
     Simply joins and leaves the voice channel, for now
@@ -32,13 +32,13 @@ A bot we can use for testing purposes.
 
     Example:
 
-    Me: !voice
+    Me: ?voice
     Bot: Joining Your Voice Channel
 
-    Me: !voice
+    Me: ?voice
     Bot: Leaving Your Voice Channel
 
-!help ->
+?help ->
 	This message.
 
 """
